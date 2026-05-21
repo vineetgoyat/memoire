@@ -12,7 +12,7 @@ function SecretLogin({ setIsAuthenticated }) {
 
   try {
 
-    const response = await fetch("http://localhost:2000/login", {
+    const response = await fetch("https://memoire-3uc3.onrender.com/login", {
 
       method: "POST",
 

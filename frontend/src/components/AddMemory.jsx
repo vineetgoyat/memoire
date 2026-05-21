@@ -21,7 +21,7 @@ function AddMemory({ darkMode }) {
       formData.append("image", image)
       formData.append("date", date)
 
-      const response = await fetch("http://localhost:2000/add-memory", {
+      const response = await fetch("https://memoire-3uc3.onrender.com/add-memory", {
 
         method: "POST",
         body: formData

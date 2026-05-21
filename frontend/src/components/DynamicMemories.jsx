@@ -40,7 +40,7 @@ function DynamicMemories({ darkMode }) {
 
     try {
 
-      const response = await fetch("http://localhost:2000/memories")
+      const response = await fetch("https://memoire-3uc3.onrender.com/memories")
 
       const data = await response.json()
 
